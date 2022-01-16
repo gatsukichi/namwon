@@ -4,13 +4,13 @@ public class calc {
 	public static void main (String[] argv) throws IOException {
 		BufferedReader br1 = new BufferedReader(new InputStreamReader(System.in));
 		BufferedReader br2 = new BufferedReader(new InputStreamReader(System.in));
-		System.out.println("Ã¹¹øÂ° ¼ýÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä :");
-		String a = br1.readLine(); // '5' -> 53ÀÇ¹ÌÇÏ´Â 2Áø¼ö Ç¥ÇöµÈ ¾î¶² ÀúÀå
-		System.out.println("µÎ¹øÂ° ¼ýÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä :");
+		System.out.println("Ã¹ï¿½ï¿½Â° ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½ :");
+		String a = br1.readLine(); // '5' -> 53ï¿½Ç¹ï¿½ï¿½Ï´ï¿½ 2ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½ï¿½ï¿½ ï¿½î¶² ï¿½ï¿½ï¿½ï¿½
+		System.out.println("ï¿½Î¹ï¿½Â° ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½ :");
 		String b = br2.readLine(); // '4' -> 52
 		int number1 = Integer.parseInt(a); // '5'
 		int number2 = Integer.parseInt(b);
-		System.out.println("°á°ú´Â " + number1*number2 + " ÀÔ´Ï´Ù.");
-		
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ " + number1*number2 + " ï¿½Ô´Ï´ï¿½.");
+		//asda
 	}
 }
